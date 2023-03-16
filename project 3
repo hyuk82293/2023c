@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int a[3];
+    puts("Enter:");
+    scanf("%d %d",&a[0], &b[1]);
+    a[2] = a[0] + a[1];
+    printf("%d\n", a[2]);
+    return 0;
+}
